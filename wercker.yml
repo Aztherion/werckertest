@@ -23,8 +23,7 @@ build:
             env          
 deploy:
   steps:
-    - internal/docker-push:
+    - internal/docker-scratch-push:
         username: $DHUSERNAME
         password: $DHPASSWORD
-        tag: latest
         repository: benols/werckertest
