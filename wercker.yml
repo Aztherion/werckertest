@@ -18,6 +18,9 @@ build:
         code: |
           cp -r . $WERCKER_OUTPUT_DIR/app
           cd $WERCKER_OUTPUT_DIR/app
+    - script:
+        code: |
+            env          
 deploy:
   steps:
     - internal/docker-push:
