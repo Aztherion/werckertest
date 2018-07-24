@@ -19,6 +19,10 @@ build:
         code: |
           cp -r . $WERCKER_OUTPUT_DIR/app
           cd $WERCKER_OUTPUT_DIR/app
+    - script:
+        name: set permissions on entrypoint
+        code: |
+            chmod +x /pipeline/source/docker_entrypoint.sh
 #    - script:
 #        code: |
 #            env
