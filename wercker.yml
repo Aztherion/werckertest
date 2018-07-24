@@ -20,7 +20,8 @@ build:
           cd $WERCKER_OUTPUT_DIR/app
     - script:
         code: |
-            env          
+            env
+
 deploy:
   steps:
     - internal/docker-scratch-push:
