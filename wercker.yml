@@ -25,5 +25,4 @@ deploy:
         password: $PASSWORD
         tag: latest
         repository: benols/werckertest
-        registry: https://registry.hub.docker.com
-        entrypoint: "/pipeline/source/app/docker_entrypoint.sh"          
+        #entrypoint: "/pipeline/source/app/docker_entrypoint.sh"          
