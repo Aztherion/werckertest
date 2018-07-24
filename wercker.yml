@@ -6,6 +6,10 @@ build:
         code: |
           apt-get update
     - script:
-        name: Build project
+        name: restore
         code: |
-          ./build.sh
+          dotnet restore src/HelloWercker/HelloWercker.csproj
+    - script:
+        name: build
+        code: |
+          dotnet build src/HelloWercker/HelloWercker.csproj
