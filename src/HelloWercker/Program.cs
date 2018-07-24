@@ -25,7 +25,7 @@ namespace HelloWercker
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            app.Run(async (context) => { await context.Response.WriteAsync($"Hello! - {DateTime.Now:yyyy-MM-dd hh:mm:ss}"); });
+            app.Run(async (context) => { await context.Response.WriteAsync($"Hello Cihan! - {DateTime.Now:yyyy-MM-dd hh:mm:ss}"); });
         }
     }
 }
