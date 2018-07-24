@@ -1,4 +1,4 @@
-box: ubuntu:16.04
+box: microsoft/dotnet:2.1-sdk
 build:
   steps:
     - script:
