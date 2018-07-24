@@ -15,7 +15,7 @@ build:
           dotnet build src/HelloWercker/HelloWercker.csproj
     - script:
         name: copy binary
-        cwd: src/HelloWercker
+        cwd: src/HelloWercker/bin/Debug/netcoreapp2.0
         code: |
           cp -r . $WERCKER_OUTPUT_DIR/app
           cd $WERCKER_OUTPUT_DIR/app
@@ -26,4 +26,4 @@ build:
         username: $DHUSERNAME
         password: $DHPASSWORD
         repository: benols/werckertest
-        entrypoint: "./docker_entrypoint.sh"
+        entrypoint: "/pipeline/source/docker_entrypoint.sh"
