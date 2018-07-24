@@ -24,7 +24,7 @@ build:
 deploy:
   steps:
     - internal/docker-push:
-        username: $USERNAME
-        password: $PASSWORD
+        username: $DHUSERNAME
+        password: $DHPASSWORD
         tag: latest
         repository: benols/werckertest
