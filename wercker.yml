@@ -15,6 +15,7 @@ build:
           dotnet build src/HelloWercker/HelloWercker.csproj
     - script:
         name: copy binary
+        cwd: src/HelloWercker
         code: |
           cp -r . $WERCKER_OUTPUT_DIR/app
           cd $WERCKER_OUTPUT_DIR/app
