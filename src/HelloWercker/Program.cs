@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
@@ -24,7 +25,7 @@ namespace HelloWercker
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            app.Run(async (context) => { await context.Response.WriteAsync("Hello!"); });
+            app.Run(async (context) => { await context.Response.WriteAsync($"Hello! - {DateTime.Now:yyyy-MM-dd hh:mm:ss}"); });
         }
     }
 }
