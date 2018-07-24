@@ -18,13 +18,10 @@ build:
         code: |
           cp -r . $WERCKER_OUTPUT_DIR/app
           cd $WERCKER_OUTPUT_DIR/app
-    - script:
-        code: |
-            env
-
-deploy:
-  steps:
-    - internal/docker-scratch-push:
+#    - script:
+#        code: |
+#            env
+    - internal/docker-push:
         username: $DHUSERNAME
         password: $DHPASSWORD
         repository: benols/werckertest
