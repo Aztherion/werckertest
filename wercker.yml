@@ -25,3 +25,4 @@ build:
         username: $DHUSERNAME
         password: $DHPASSWORD
         repository: benols/werckertest
+        entrypoint: "/pipeline/source/app/docker_entrypoint.sh"

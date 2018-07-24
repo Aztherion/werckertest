@@ -1,0 +1,11 @@
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\bin\Debug\netcoreapp2.0\HelloWercker.deps.json
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\bin\Debug\netcoreapp2.0\HelloWercker.runtimeconfig.json
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\bin\Debug\netcoreapp2.0\HelloWercker.runtimeconfig.dev.json
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\bin\Debug\netcoreapp2.0\HelloWercker.dll
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\obj\Debug\netcoreapp2.0\HelloWercker.csprojResolveAssemblyReference.cache
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\obj\Debug\netcoreapp2.0\HelloWercker.csproj.CoreCompileInputs.cache
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\obj\Debug\netcoreapp2.0\HelloWercker.AssemblyInfoInputs.cache
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\obj\Debug\netcoreapp2.0\HelloWercker.AssemblyInfo.cs
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\bin\Debug\netcoreapp2.0\HelloWercker.pdb
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\obj\Debug\netcoreapp2.0\HelloWercker.dll
+C:\Users\benny\Documents\GitHub\werckertest\src\HelloWercker\obj\Debug\netcoreapp2.0\HelloWercker.pdb
