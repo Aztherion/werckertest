@@ -5,3 +5,7 @@ build:
         name: update
         code: |
           apt-get update
+    - script:
+        name: Build project
+        code: |
+          ./build.sh
